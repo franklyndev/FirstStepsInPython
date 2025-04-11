@@ -5,4 +5,3 @@ print("is alpha? ", some.isalpha())
 print("is alnum? ", some.isalnum())
 print("is upper? ", some.isupper())
 print("is lower? ", some.islower())
-
