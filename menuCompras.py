@@ -7,7 +7,7 @@ while opcao != 4:
     print("[4] Sair")
     opcao = int(input("Opção: "))
     if opcao == 4:
-        print("Encerrando...")
+        print("Encerrando..")
         break
     quantidade = int(input("Quantidade: "))
     
