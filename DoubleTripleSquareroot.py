@@ -1,4 +1,4 @@
-# Make a algorithm that read a number and display its double, triple and Square Root.
+# Make a algorithm that read a number and display its double, triple and Square Root. 
 import math
 
 number = int(input("Enter a number: "))
