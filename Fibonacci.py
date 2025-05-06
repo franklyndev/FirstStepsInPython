@@ -11,3 +11,4 @@ while c < termos:
         n2 = n3
         print(f"{n1} ", end = "")
     c += 1
+    
