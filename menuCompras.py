@@ -1,5 +1,6 @@
 opcao = 0
 while opcao != 4:
+    
     print("-------------\n   M E N U\n-------------")
     print("[1] Maçã R$2,30")
     print("[2] Banana R$1,80")
