@@ -1,14 +1,21 @@
-val = []
-maior = 0
-menor = 0
-for i in range(5):
-    val.append(int(input("Digite um número: ")))
+valores = []
+big = 0
+small = 0
+for i in range(0, 5):
+    valores.append(int(input("Enter a number: ")))
     if i == 0:
-        maior = menor = val[i]
+        big = small = valores[i]
     else:
-        if val[i] > maior:
-            maior = val[i]
-        if val[i] < menor:
-            menor = val[i]        
-print("Maior valor:", maior, "posição", )
-print("Menor valor:", menor, "posição", )
+        if valores[i] > big:
+            big = valores[i]
+        if valores[i] < small:
+            small = valores[i]   
+print(valores)    
+print(f"The max value: {big}, entered in the positions ", end = "")
+for c, v in enumerate(valores):
+    if big == v:
+        print(f"{c}...")
+print(f"The min value: {small}, entered in the positions ", end = "")
+for c, v in enumerate(valores):
+    if small == v: 
+        print(f"{c}...", end = "")
