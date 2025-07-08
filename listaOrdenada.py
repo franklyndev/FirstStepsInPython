@@ -1,13 +1,13 @@
-numeros = []
+lista = []
+posicao = 0
 for i in range(0, 5):
-    n = int(input("Digite um número: "))
-    if i == 0 or n > numeros[-1]:
-        numeros.append(n)
-    else: 
-        posicao = 0
-        while posicao < len(numeros):
-            if n <= numeros[posicao]:
-                numeros.insert(posicao, n)
+    num = int(input("Digite um número: "))
+    if i == 0 or num > lista[-1]:
+        lista.append(num)
+    else:
+        while posicao < len(lista):
+            if num <= lista[posicao]:
+                lista.insert(posicao, num)
                 break
             posicao += 1
-print(numeros)               
+print(lista)    
